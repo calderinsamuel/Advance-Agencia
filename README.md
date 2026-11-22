@@ -50,19 +50,6 @@ La compilación valida TypeScript y genera las páginas de producción. `verify`
 | Imagen principal | `public/images/advance-studio.png` |
 | Catálogo descargable original | `public/catalogo.pdf` |
 
-## Publicar
-
-El proyecto conserva Next.js y puede desplegarse en un proveedor compatible con Next.js, como Vercel. Sube el contenido de `advance-agencia` a tu repositorio (sin `node_modules` ni `.next`), importa el repositorio en el proveedor y usa `npm run build` como comando de compilación.
-
-Configura `NEXT_PUBLIC_SITE_URL` con el dominio real, incluyendo `https://`, y vuelve a compilar. Esto permite crear URLs absolutas correctas para la vista previa social. Sin esa variable, el desarrollo local usa la URL local predeterminada de Next.js; no se inventa un dominio de producción.
-
-Ejemplo de configuración local en `.env.local`:
-
-```text
-NEXT_PUBLIC_SITE_URL=https://tu-dominio-real.com
-```
-
-Antes de publicar, confirma los datos comerciales con el responsable. Se conservaron el teléfono, correo, Instagram y dirección escrita del original. El mapa incrustado original apuntaba a una dirección distinta: se reemplazó por una búsqueda de la dirección escrita, que debe confirmarse. Revisa también las condiciones comerciales y el catálogo PDF original, que no fue rediseñado.
 
 ## Imágenes y veracidad
 
